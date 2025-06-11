@@ -1,32 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tmdwn\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\",
+  "WorkspaceRootPath": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{4B988491-56AF-47FE-B30A-49F7A819EEB8}|Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4B988491-56AF-47FE-B30A-49F7A819EEB8}|Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4B988491-56AF-47FE-B30A-49F7A819EEB8}|Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).vcxproj|solutionrelative:Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A27FC54-9CF1-427A-BF56-58C8FB977129}|program\\program.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\program\\program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F29EB5B0-3A0E-40CB-9FCF-E311486DE466}|\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F29EB5B0-3A0E-40CB-9FCF-E311486DE466}|\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.vcxproj|solutionrelative:\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A27FC54-9CF1-427A-BF56-58C8FB977129}|program\\program.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\program\\program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0A27FC54-9CF1-427A-BF56-58C8FB977129}|program\\program.vcxproj|solutionrelative:program\\program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D05A5A83-DBF5-4F44-A940-A3D7805EA9B8}|Class2th(class)\\Class2th(class).vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class2th(class)\\Class2th(class).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D05A5A83-DBF5-4F44-A940-A3D7805EA9B8}|Class2th(class)\\Class2th(class).vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\Class2th(class)\\Class2th(class).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D05A5A83-DBF5-4F44-A940-A3D7805EA9B8}|Class2th(class)\\Class2th(class).vcxproj|solutionrelative:Class2th(class)\\Class2th(class).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2E1249F-1395-47D0-A122-066A5F11624F}|class1th(sultion)\\class1th(sultion).vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\class1th(sultion)\\class1th(sultion).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-=======
-      "AbsoluteMoniker": "D:0:0:{0A27FC54-9CF1-427A-BF56-58C8FB977129}|program\\program.vcxproj|C:\\Users\\tmdwn\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\program\\program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0A27FC54-9CF1-427A-BF56-58C8FB977129}|program\\program.vcxproj|solutionrelative:program\\program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2E1249F-1395-47D0-A122-066A5F11624F}|class1th(sultion)\\class1th(sultion).vcxproj|C:\\Users\\tmdwn\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\class1th(sultion)\\class1th(sultion).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
->>>>>>> 01795960e78667861c5b376893c60e3b7ea08670
+      "AbsoluteMoniker": "D:0:0:{C2E1249F-1395-47D0-A122-066A5F11624F}|class1th(sultion)\\class1th(sultion).vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\class1th(sultion)\\class1th(sultion).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C2E1249F-1395-47D0-A122-066A5F11624F}|class1th(sultion)\\class1th(sultion).vcxproj|solutionrelative:class1th(sultion)\\class1th(sultion).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -41,70 +34,67 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class3th(constructor \u0026 Destructoor).cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp",
-              "RelativeDocumentMoniker": "Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp",
-              "RelativeToolTip": "Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAMwIgAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "\uC5F0\uC2B5\uC7A5.cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
+              "RelativeDocumentMoniker": "\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
+              "RelativeToolTip": "\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-11T06:34:00.737Z",
+              "WhenOpened": "2025-06-11T15:32:28.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "delete_scalar.cpp",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Class3th(constructor \u0026 Destructoor).cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp",
+              "RelativeDocumentMoniker": "Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp",
+              "RelativeToolTip": "Class3th(constructor \u0026 Destructoor)\\Class3th(constructor \u0026 Destructoor).cpp",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAQwKsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-11T06:07:45.46Z",
+              "WhenOpened": "2025-06-11T12:46:39.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Class2th(class).cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class2th(class)\\Class2th(class).cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\Class2th(class)\\Class2th(class).cpp",
               "RelativeDocumentMoniker": "Class2th(class)\\Class2th(class).cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class2th(class)\\Class2th(class).cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\Class2th(class)\\Class2th(class).cpp",
               "RelativeToolTip": "Class2th(class)\\Class2th(class).cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-11T04:08:52.405Z",
+              "WhenOpened": "2025-06-11T12:46:40.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "class1th(sultion).cpp",
-              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\class1th(sultion)\\class1th(sultion).cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\class1th(sultion)\\class1th(sultion).cpp",
               "RelativeDocumentMoniker": "class1th(sultion)\\class1th(sultion).cpp",
-              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\class1th(sultion)\\class1th(sultion).cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\class1th(sultion)\\class1th(sultion).cpp",
               "RelativeToolTip": "class1th(sultion)\\class1th(sultion).cpp",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAGUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-10T04:04:10.774Z"
+              "WhenOpened": "2025-06-11T12:46:40.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "program.cpp",
-              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\program\\program.cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\program\\program.cpp",
               "RelativeDocumentMoniker": "program\\program.cpp",
-              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\program\\program.cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\program\\program.cpp",
               "RelativeToolTip": "program\\program.cpp",
-<<<<<<< HEAD
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAKcAAAAjAAAAAAAAAA==",
->>>>>>> 01795960e78667861c5b376893c60e3b7ea08670
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T06:47:33.779Z",
+              "WhenOpened": "2025-06-11T12:46:40.513Z",
               "EditorCaption": ""
             }
           ]
