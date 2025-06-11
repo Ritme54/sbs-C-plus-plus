@@ -1,5 +1,8 @@
-﻿#include<iostream>
+﻿#include <iostream>
 
+<<<<<<< HEAD
+using namespace std;
+=======
 using namespace std; // std 네임스페이스 사용 선언
 
 void swap(int& a, int& b) // 참조자를 이용한 swap 함수
@@ -28,7 +31,7 @@ private:
 protected:
 	static int count; //static은 데이터 영역에 포함되어 클래스의 모든 객체가 공유하는 변수
 	//정적(Static) 멤버 변수 (count):
-	//이 변수는 static 키워드가 붙어 있습니다.스태틱 멤버 변수는 특정 객체에 속하는 것이 아니라 클래스 자체에 속하는 변수입니다.프로그램 전체에서 GameObject 클래스의 모든 객체가 하나의 count 변수를 공유합니다.GameObject 객체를 100개 만들더라도 count 변수는 메모리에 딱 하나만 존재합니다.
+	// static 키워드를 사용하여 선언된 멤버 변수로, 클래스의 모든 객체가 공유하는 변수입니다.
 	//이처럼 프로그램 실행 기간 동안 단 하나만 존재하며 프로그램 시작 시 할당되는 정적
 	// 변수들은 * *데이터 영역(Data Segment) * *에 저장됩니다.
 	//참고로 스태틱 멤버 변수는 클래스 정의 바깥에서 별도로 초기화해주어야 합니다
@@ -92,15 +95,28 @@ public:
 		return z;
 
 	}
+
+	static int GetCount(int a, int b, int c) // 정적 멤버 함수로 클래스의 객체 개수를 반환
+	{
+		return count=a+b+c;
+	}
+
 };
 
 int GameObject::count = 0; 
+>>>>>>> 01795960e78667861c5b376893c60e3b7ea08670
+
+// GameObject 클래스의 정적 멤버 변수 count 초기화
+// GameObject 클래스의 정적 멤버 변수 count는 클래스 정의 바깥에서 초기화해야 합니다.
+// 예를 들어, int GameObject::count = 0;와 같이 초기화할 수 있습니다.
 
 
 
 int main()
 {
 
+<<<<<<< HEAD
+=======
 #pragma region 참조자
 	// 하나의 변수에 또 다른 이름을 지정하는 지정자이다.
 
@@ -154,13 +170,13 @@ int main()
 	gameObject1.SetZ(30);
 	gameObject1.GetZ();
 
-
-	cout << "gameObject1.x : " << gameObject1.GetX() << endl;
-	cout << "gameObject1.y : " << gameObject1.GetY() << endl;
-	cout << "gameObject1.z : " << gameObject1.GetZ() << endl;
-
-	//메모리 크기 확인
-	cout << "sizeof(gameObject1) : " << sizeof(gameObject1) << endl; // gameObject1의 크기 출력
+	//
+	//cout << "gameObject1.x : " << gameObject1.GetX() << endl;
+	//cout << "gameObject1.y : " << gameObject1.GetY() << endl;
+	//cout << "gameObject1.z : " << gameObject1.GetZ() << endl;
+	//
+	////메모리 크기 확인
+	//cout << "sizeof(gameObject1) : " << sizeof(gameObject1) << endl; // gameObject1의 크기 출력
 
 	//gameObject1.z = 5; // gameObject1의 z 멤버 변수에 값 대입
 	//cout << "gameObject1.z의 값 : " << gameObject1.z << endl;
@@ -178,7 +194,21 @@ int main()
 #pragma region 정적 멤버 함수
 	// 객체 없이 호출 가능 : 정적 멤버 함수는 특정 객체를 만들지 않고도 클래스 이름만으로
 	// 호출할 수 있습니다.
+	// This 포인터 없음 : 정적 멤버 함수는 특정 객체를 가리키는 this 포인터를 가지지 않습니다.
+	// 비정적 맴버에 접근 불가 : 정적 멤버 함수는 비정적 멤버 변수나 비정적 멤버 함수에 직접 접근할 수 없습니다.
+	// 어떤 객체인지 알수 없기 때문입니다.
+	// 정적 멤버에만 접근이 가능합니다 : 정적 멤버 함수는 클래스의 정적 멤버 변수나 다른 정적 멤버 함수에만 접근할 수 있습니다.
+
+	// 정적 맴버 함수를 사용하는 경우.
+	// 클래스의 모든 객체와 관련이 있지만 특정 객체(맴버 변수 등)에 종속되지 않는 기능을 구현할 때 유용합니다.
+	// 클래스의 정적 맴버 객체를 관리하거나, 클래스의 상태를 추적하는 등의 용도로 사용됩니다.
+	// 유틸리티	함수 : 클래스와 관련된 유틸리티 함수를 구현할 때 유용합니다.
+
+	// 정적 맴버 함수 예시
+	cout << "정적 맴버 함수 count의 값 : " << GameObject::GetCount(10, 30, 50) << endl;
+
 #pragma endregion
+>>>>>>> 01795960e78667861c5b376893c60e3b7ea08670
 
 
 
