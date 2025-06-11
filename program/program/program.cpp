@@ -110,6 +110,10 @@ int GameObject::count = 0;
 // GameObject 클래스의 정적 멤버 변수 count는 클래스 정의 바깥에서 초기화해야 합니다.
 // 예를 들어, int GameObject::count = 0;와 같이 초기화할 수 있습니다.
 
+// GameObject 클래스의 정적 멤버 변수 count 초기화
+// GameObject 클래스의 정적 멤버 변수 count는 클래스 정의 바깥에서 초기화해야 합니다.
+// 예를 들어, int GameObject::count = 0;와 같이 초기화할 수 있습니다.
+
 
 
 int main()
