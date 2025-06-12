@@ -1,0 +1,84 @@
+
+2025.06.12 수업 몬스터 클래스 생성 수업
+
+
+
+class Monster
+{
+protected:
+	int health;
+	int defense;
+public:
+	
+private:
+};
+
+class Goblin : protected Monster
+{
+protected:
+	int attack;
+
+public:
+	Goblin()
+	{
+		health = 100;
+		defense = 5;
+		attack = 30;
+	}
+
+	void Stats()
+	{
+		cout << "Health : " << health << std::endl;
+		cout << "Defense : " << defense << std::endl;
+		cout << "Attack : " << attack << std::endl;
+		cout << endl;
+	}
+
+};
+
+class Junior_Golem : protected Monster
+{
+protected:
+	int attack;
+public:
+Junior_Golem()
+{
+	health = 200;
+	defense = 10;
+	attack = 55;
+}
+void Stats()
+{
+	cout << "Health : " << health << std::endl;
+	cout << "Defense : " << defense << std::endl;
+	cout << "Attack : " << attack << std::endl;
+	cout << endl;
+}
+
+
+};
+
+class Slime : protected Monster
+{
+protected:
+
+public:
+	Slime()
+	{
+		health = 50;
+		defense = 1;
+		
+	}
+
+	void Stats()
+	{
+		cout << "Health : " << health << std::endl;
+		cout << "Defense : " << defense << std::endl;
+		cout << endl;
+	}
+
+};
+
+
+
+
