@@ -1,0 +1,64 @@
+	cout << "숫자키 1 인식" << endl;
+
+	char key;
+
+	while (true)
+	{
+		if (_kbhit())
+		{
+			key = _getch();
+			if (key == '1')
+			{
+				Use();
+			}
+
+		}
+		else if (_kbhit())
+		{
+			key = _getch();
+			if (key == '2')
+			{
+				Use();
+			}
+
+		}
+		else if (_kbhit())
+		{
+			key = _getch();
+			if (key == '3')
+			{
+				Use();
+			}
+
+		}
+		else if (_kbhit())
+		{
+			key = _getch();
+			if (key =='4')
+			{
+				cout << "nothing" << endl;
+			}
+			
+		}
+		else if (_kbhit())
+		{
+			key = _getch();
+			if (key == '5')
+			{
+				cout << "nothing" << endl;
+			}
+
+		}
+		else if (_kbhit())
+		{
+			key = _getch();
+			if (key == 27)
+			{
+				cout << "End" << endl;
+				break;
+			}
+
+		}
+		
+		
+	}

@@ -20,69 +20,37 @@ int main()
 {
 #pragma region 생성
 
-	cout << "숫자키 1 인식" << endl;
+	int count = 5;
 
-	char key;
+	int select = 0;
 
-	while (true)
+	Consumable* consumable = nullptr;
+
+	while (count > 0)
 	{
-		if (_kbhit())
-		{
-			key = _getch();
-			if (key == '1')
-			{
-				Use();
-			}
+		cout << "Item Select : ";
 
-		}
-		else if (_kbhit())
-		{
-			key = _getch();
-			if (key == '2')
-			{
-				Use();
-			}
+		cin >> select;
 
-		}
-		else if (_kbhit())
-		{
-			key = _getch();
-			if (key == '3')
-			{
-				Use();
-			}
+		cout << endl;
 
-		}
-		else if (_kbhit())
+		switch (select)
 		{
-			key = _getch();
-			if (key =='4')
-			{
-				cout << "nothing" << endl;
-			}
-			
+		case 1: { consumable = new Potion; }
+		case 2: { consumable = new Food; }
+		case 3: { consumable = new Scroll; }
+		default: cout << "Exception" << endl;
+			break;
 		}
-		else if (_kbhit())
-		{
-			key = _getch();
-			if (key == '5')
-			{
-				cout << "nothing" << endl;
-			}
 
-		}
-		else if (_kbhit())
-		{
-			key = _getch();
-			if (key == 27)
-			{
-				cout << "End" << endl;
-				break;
-			}
+		consumable->Use();
 
+		count--;
+
+		if (consumable != nullptr)
+		{
+			delete consumable;
 		}
-		
-		
 	}
 
 
