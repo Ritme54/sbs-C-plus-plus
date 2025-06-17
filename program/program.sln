@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class5th(Polymorphism)", "C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class(Paint)", "Class(Paint)\Class(Paint).vcxproj", "{72E66045-2971-4CDD-8EA2-8BBBB404F205}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class6th(Abstract)", "Class6th(Abstract)\Class6th(Abstract).vcxproj", "{B14514C8-77E7-4832-9CD7-29B9A58EC61A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{72E66045-2971-4CDD-8EA2-8BBBB404F205}.Release|x64.Build.0 = Release|x64
 		{72E66045-2971-4CDD-8EA2-8BBBB404F205}.Release|x86.ActiveCfg = Release|Win32
 		{72E66045-2971-4CDD-8EA2-8BBBB404F205}.Release|x86.Build.0 = Release|Win32
+		{B14514C8-77E7-4832-9CD7-29B9A58EC61A}.Debug|x64.ActiveCfg = Debug|x64
+		{B14514C8-77E7-4832-9CD7-29B9A58EC61A}.Debug|x64.Build.0 = Debug|x64
+		{B14514C8-77E7-4832-9CD7-29B9A58EC61A}.Debug|x86.ActiveCfg = Debug|Win32
+		{B14514C8-77E7-4832-9CD7-29B9A58EC61A}.Debug|x86.Build.0 = Debug|Win32
+		{B14514C8-77E7-4832-9CD7-29B9A58EC61A}.Release|x64.ActiveCfg = Release|x64
+		{B14514C8-77E7-4832-9CD7-29B9A58EC61A}.Release|x64.Build.0 = Release|x64
+		{B14514C8-77E7-4832-9CD7-29B9A58EC61A}.Release|x86.ActiveCfg = Release|Win32
+		{B14514C8-77E7-4832-9CD7-29B9A58EC61A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
