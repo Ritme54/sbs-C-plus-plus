@@ -8,19 +8,19 @@ using namespace std;
 
 void Share()
 {
-	std::cout << "--- 순환 참조 생성 시작 ---" << std::endl;
-	shared_ptr<Resource> oil = make_shared<Resource>();
-	shared_ptr<Resource2> mineral = make_shared<Resource2>();
-
-	std::cout << "초기 참조 카운트: oil = " << oil.use_count()
-		<< ", mineral = " << mineral.use_count() << std::endl;
-
-	oil->ptr_to_resource2 = mineral;
-	mineral->ptr_to_resource = oil;
-
-	std::cout << "순환 참조 설정 후 참조 카운트: oil = " << oil.use_count()
-		<< ", mineral = " << mineral.use_count() << std::endl;
-	std::cout << "--- 순환 참조 생성 완료 ---" << std::endl;
+	//std::cout << "--- 순환 참조 생성 시작 ---" << std::endl;
+	//shared_ptr<Resource> oil = make_shared<Resource>();
+	//shared_ptr<Resource2> mineral = make_shared<Resource2>();
+	//
+	//std::cout << "초기 참조 카운트: oil = " << oil.use_count()
+	//	<< ", mineral = " << mineral.use_count() << std::endl;
+	//
+	//oil->ptr_to_resource2 = mineral;
+	//mineral->ptr_to_resource = oil;
+	//
+	//std::cout << "순환 참조 설정 후 참조 카운트: oil = " << oil.use_count()
+	//	<< ", mineral = " << mineral.use_count() << std::endl;
+	//std::cout << "--- 순환 참조 생성 완료 ---" << std::endl;
 
 }
 
@@ -71,7 +71,18 @@ int main()
 
 #pragma endregion
 
-#pragma region (L)l-value, (R)r-value의 이해
+#pragma region l-value, r-value에 대해서
+	//l-value : 메모리 주소를 가지는 값, 변수, 상수 등
+	//r-value : 메모리 주소를 가지지 않는 값, 리터럴, 연산 결과 등
+	//l-value는 r-value로 대입할 수 있지만, r-value는 l-value로 대입할 수 없다.
+	//l-value는 r-value로 대입할 수 있지만, r-value는 l-value로 대입할 수 없다.
+	//int a = 10; //a는 l-value, 10은 r-value
+	//int b = a; //a는 l-value, b는 l-value
+	//b = 20; //b는 l-value, 20은 r-value
+	//메모리 관리 및 성능 최적화 : l - value와 r - value의 특성을 이해하면 불필요한 메모리 복사를 줄이고
+	//임시 객체의 수명을 효율적으로 관리하여 프로그램의 성능을 최적화할 수 있습니다.
+	//참조 바인딩 규칙 : l - value 참조는 l - value에만 바인딩되고
+	//r - value 참조는 r - value에만 바인딩되는 규칙을 통해 코드의 안전성과 의미를 명확히 합니다.
 
 
 
