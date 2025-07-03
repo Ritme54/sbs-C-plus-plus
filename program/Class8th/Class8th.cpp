@@ -3,26 +3,10 @@
 #include <memory> // 스마트 포인터를 사용하기 위한 헤더 파일
 #include "Packet.h"
 #include "Resource.h"
-#include "Resource2.h"
+#include "Character.h"
+
 using namespace std;
 
-void Share()
-{
-	//std::cout << "--- 순환 참조 생성 시작 ---" << std::endl;
-	//shared_ptr<Resource> oil = make_shared<Resource>();
-	//shared_ptr<Resource2> mineral = make_shared<Resource2>();
-	//
-	//std::cout << "초기 참조 카운트: oil = " << oil.use_count()
-	//	<< ", mineral = " << mineral.use_count() << std::endl;
-	//
-	//oil->ptr_to_resource2 = mineral;
-	//mineral->ptr_to_resource = oil;
-	//
-	//std::cout << "순환 참조 설정 후 참조 카운트: oil = " << oil.use_count()
-	//	<< ", mineral = " << mineral.use_count() << std::endl;
-	//std::cout << "--- 순환 참조 생성 완료 ---" << std::endl;
-
-}
 
 int main()
 {
@@ -96,16 +80,33 @@ int main()
 	// 
 	// 
 	//shared_ptr<자료형> 변수명 = make_shared<자료형>(값);
-    //
-	//shared_ptr<Resource> oil = make_shared<Resource>();
-	//{
-	//	shared_ptr<Resource> mineral = oil;
-	// 
-	//}
-	
-	shared_ptr<Resource> oil = make_shared<Resource>();
-	shared_ptr<Resource2> mineral = make_shared<Resource2>();
 
+	//shared_ptr<Resource> oil = make_shared<Resource>();
+	//
+	//shared_ptr<Resource> mineral = make_shared<Resource>();
+	//
+	//oil->Share(mineral);
+	//
+	//mineral->Share(oil);
+	//
+	//cout << "Reference Count oil : " << oil.use_count() << endl;
+	//cout << "Reference Count mineral : " << mineral.use_count() << endl;
+
+#pragma endregion
+
+#pragma region weak pointer(약한 포인터)
+	//자원 객체를 소유하지 않기 때문에 공유 포인터로 관리되는 객체를 가리켜서
+	// 참조 개수에 영향을 미치지 않게 하는 포인터
+	//weak_ptr<자료형> 변수명 = make_shared<자료형>(값);
+	//
+	//shared_ptr<Character> wizard = make_shared<Character>();
+	//shared_ptr<Character> warrior = make_shared<Character>();
+	//
+	//wizard->Partner(warrior);
+	//warrior->Partner(wizard);
+	//
+	//cout << "Reference Count  : " << wizard.use_count() << endl;
+	//cout << "Reference Count  : " << warrior.use_count() << endl;
 
 #pragma endregion
 

@@ -2,12 +2,15 @@
 
 #include <iostream>
 using namespace std;
-class Resource2;
+
 class Resource
 {
+private:
+	shared_ptr<Resource> resource;
 public:
-	std::shared_ptr<Resource> ptr_to_resource;
+	
 	Resource();
+	void Share(const shared_ptr<Resource>& pointer);
 
 
 	~Resource();

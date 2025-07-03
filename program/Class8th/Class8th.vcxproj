@@ -24,6 +24,7 @@
     <ProjectGuid>{94e6a140-2d07-48f1-b58d-842de49e5324}</ProjectGuid>
     <RootNamespace>Class8th</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class8th(Smart Pointer)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,15 +128,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Character.cpp" />
     <ClCompile Include="Class8th.cpp" />
     <ClCompile Include="Packet.cpp" />
     <ClCompile Include="Resource.cpp" />
-    <ClCompile Include="Resource2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Character.h" />
     <ClInclude Include="Packet.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="Resource2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
