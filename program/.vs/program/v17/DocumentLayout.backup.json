@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9C22A8E-C992-459C-BB36-1DDC0CEFCC2A}|Class9th\\Class9th.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class9th\\Class9th.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E9C22A8E-C992-459C-BB36-1DDC0CEFCC2A}|Class9th\\Class9th.vcxproj|solutionrelative:Class9th\\Class9th.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C20BB583-A2F2-474C-8F86-EC9E4D2201E5}|Class10th\\Class10th.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class10th\\Class10th.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C20BB583-A2F2-474C-8F86-EC9E4D2201E5}|Class10th\\Class10th.vcxproj|solutionrelative:Class10th\\Class10th.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A27FC54-9CF1-427A-BF56-58C8FB977129}|program\\program.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\program\\program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0A27FC54-9CF1-427A-BF56-58C8FB977129}|program\\program.vcxproj|solutionrelative:program\\program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9C22A8E-C992-459C-BB36-1DDC0CEFCC2A}|Class9th\\Class9th.vcxproj|C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class9th\\Class9th.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9C22A8E-C992-459C-BB36-1DDC0CEFCC2A}|Class9th\\Class9th.vcxproj|solutionrelative:Class9th\\Class9th.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class9th.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class9th\\Class9th.cpp",
-              "RelativeDocumentMoniker": "Class9th\\Class9th.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class9th\\Class9th.cpp",
-              "RelativeToolTip": "Class9th\\Class9th.cpp",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAswNEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-03T05:41:55.073Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -45,9 +36,35 @@
               "RelativeDocumentMoniker": "program\\program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\program\\program.cpp",
               "RelativeToolTip": "program\\program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-03T05:41:19.032Z",
+              "WhenOpened": "2025-07-04T05:10:42.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class10th.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class10th\\Class10th.cpp",
+              "RelativeDocumentMoniker": "Class10th\\Class10th.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class10th\\Class10th.cpp",
+              "RelativeToolTip": "Class10th\\Class10th.cpp",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-04T04:22:50.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class9th.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class9th\\Class9th.cpp",
+              "RelativeDocumentMoniker": "Class9th\\Class9th.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\Class9th\\Class9th.cpp",
+              "RelativeToolTip": "Class9th\\Class9th.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-04T04:22:40.341Z",
               "EditorCaption": ""
             }
           ]

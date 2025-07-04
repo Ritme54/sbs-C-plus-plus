@@ -153,43 +153,45 @@ int main()
 
 #pragma endregion
 
+
+
 #pragma region (double ended Queue) deque 컨테이너
 // 양쪽 끝에서 삽입과 삭제가 가능한 컨테이너
 // 참조가 2번 들어간다.
 //청크단위로 구별되어있어서 데이터를 중간 삽입/삭제가 벡터보다는 좋다.
 
-deque<int> box;
-box.push_back(10);
-box.push_front(20);
-box.push_back(30);
-box.push_front(40);
-box.push_back(50);
-//10
-//20 10
-//20 10 30
-//40 20 10 30
-//40 20 10 30 50
-
-cout << box.size() << endl;
-
-for (int i = 0; i < box.size(); i++)
-{
-	cout << box[i] << " ";
-}
-cout << endl;
-
-box.pop_back();// 40 20 10 30
-box.pop_front(); // 20 10 30
-
-cout << box.size() << endl;
-
-for (int i = 0; i < box.size(); i++)
-{
-	cout << box[i] << " ";
-}
-cout << endl;
-
-cout << box.front() << endl;
+//deque<int> box;
+//box.push_back(10);
+//box.push_front(20);
+//box.push_back(30);
+//box.push_front(40);
+//box.push_back(50);
+////10
+////20 10
+////20 10 30
+////40 20 10 30
+////40 20 10 30 50
+//
+//cout << box.size() << endl;
+//
+//for (int i = 0; i < box.size(); i++)
+//{
+//	cout << box[i] << " ";
+//}
+//cout << endl;
+//
+//box.pop_back();// 40 20 10 30
+//box.pop_front(); // 20 10 30
+//
+//cout << box.size() << endl;
+//
+//for (int i = 0; i < box.size(); i++)
+//{
+//	cout << box[i] << " ";
+//}
+//cout << endl;
+//
+//cout << box.front() << endl;
 
 
 #pragma endregion
@@ -206,12 +208,25 @@ cout << box.front() << endl;
 //힙 정렬
 //만약 가장 큰 값이 제거되면 가장 오른쪽 아래 노드가 최상위 노드로 올라오고 힙 구조를 유지하기 위해 힙 정렬을 한다.
 
-#pragma region 우선순위 컨테이너 하나 만들어보기
-
-#pragma endregion
-
-
-
+//priority_queue<int> box2;
+//
+//box2.push(20);
+//box2.push(10);
+//box2.push(30);
+//box2.push(5);
+//box2.push(50);
+//box2.push(26);
+//box2.push(1);
+//box2.push(100);
+//box2.push(500);
+//cout << "(";
+//
+//while (box2.empty() == false)
+//{
+//	cout << box2.top() << ",  "; //가장 큰 값이 먼저 나옴
+//	box2.pop();
+//}
+//cout << ")" << " ";
 
 #pragma endregion
 
