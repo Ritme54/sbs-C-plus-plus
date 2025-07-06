@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\sbs-c--\\sbs-C-plus-plus\\program\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F29EB5B0-3A0E-40CB-9FCF-E311486DE466}|\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F29EB5B0-3A0E-40CB-9FCF-E311486DE466}|\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.vcxproj|solutionrelative:\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20BB583-A2F2-474C-8F86-EC9E4D2201E5}|Class10th\\Class10th.vcxproj|C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\Class10th\\Class10th.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C20BB583-A2F2-474C-8F86-EC9E4D2201E5}|Class10th\\Class10th.vcxproj|solutionrelative:Class10th\\Class10th.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uC5F0\uC2B5\uC7A5.cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
+              "RelativeDocumentMoniker": "\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
+              "RelativeToolTip": "\uC5F0\uC2B5\uC7A5\\\uC5F0\uC2B5\uC7A5.cpp",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAQwHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-06T17:12:56.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class10th.cpp",
+              "DocumentMoniker": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\Class10th\\Class10th.cpp",
+              "RelativeDocumentMoniker": "Class10th\\Class10th.cpp",
+              "ToolTip": "C:\\Users\\tmdwn\\Desktop\\\uCF54\uB529 \uC218\uC5C5\\sbs-C-plus-plus\\program\\Class10th\\Class10th.cpp",
+              "RelativeToolTip": "Class10th\\Class10th.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-06T07:01:54.342Z",
+              "EditorCaption": ""
             }
           ]
         }
