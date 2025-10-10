@@ -84,23 +84,23 @@ int main()
 #pragma region string
 	//문자열 클래스
 
-	//string content;
-	//
-	//cout << content.capacity() << endl;
-	//
-	//content = "League of Legend";
-	//
-	//cout << content << endl; //Heap에 메모리를 올림
-	//cout << content.capacity() << endl;
-	//
-	//	content = "Battelfild";
-	//
-	//	cout << content << endl; // 
-	//	cout << content.capacity() << endl;
-	//	
-	//	content.append("1");
-	//
-	//	cout << content << endl; // 
+	string content;
+	
+	cout << content.capacity() << endl;
+	
+	content = "League of Legend";
+	
+	cout << content << endl; //Heap에 메모리를 올림
+	cout << content.capacity() << endl;
+	
+		content = "Battelfild";
+	
+		cout << content << endl; // 
+		cout << content.capacity() << endl;
+		
+		content.append("1");
+	
+		cout << content << endl; // 
 #pragma endregion
 
 #pragma endregion
